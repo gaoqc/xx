@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"xx/xx-user/controllers"
+	"xx/controllers"
 	"github.com/astaxie/beego"
 )
 
