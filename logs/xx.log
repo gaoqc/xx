@@ -1,0 +1,330 @@
+2017/07/12 15:10:17 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 15:10:24 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/12 15:10:24 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.830365ms|   match|[44m GET     [0m /v1/user/login   r:/v1/user/login/*
+2017/07/12 15:22:46 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 15:23:07 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 15:30:08 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 15:37:59 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 15:38:05 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/12 15:38:05 [I] [UserController.go:21] user.creatd: 
+2017/07/12 15:38:05 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.419714ms|   match|[44m GET     [0m /v1/user/login   r:/v1/user/login/*
+2017/07/12 15:38:15 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 15:49:50 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 15:54:44 [I] [Filter.go:10] uri:/v1/user/register?email=gaoqc@qq.com 
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] the request url is  /v1/user/register
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/usercontroller/register.tpl
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/template.go:73
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/controller.go:256
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/controller.go:207
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/controller.go:187
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:828
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/12 15:54:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/12 15:55:07 [I] [Filter.go:10] uri:/v1/user/register?email=gaoqc@qq.com 
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] the request url is  /v1/user/register
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/usercontroller/register.tpl
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/template.go:73
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/controller.go:256
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/controller.go:207
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/controller.go:187
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:828
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/12 15:55:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/12 15:55:54 [I] [Filter.go:10] uri:/v1/user/register?email=gaoqc@qq.com 
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] the request url is  /v1/user/register
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/usercontroller/register.tpl
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/template.go:73
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/controller.go:256
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/controller.go:207
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/controller.go:187
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:828
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/12 15:55:54 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/12 16:05:05 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:05:06 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:05:42 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/12 16:05:42 [I] [UserController.go:53] user.creatd: 
+2017/07/12 16:05:42 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.495651ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/12 16:05:53 [I] [Filter.go:10] uri:/v1/user/register?email=gaoqc@qq.com 
+2017/07/12 16:05:53 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    392.945µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:06:14 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:06:14 [I] [Filter.go:10] uri:/v1/user/register?email=gaoqc@qq.com 
+2017/07/12 16:06:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    513.766µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:06:15 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:06:47 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:06:51 [I] [Filter.go:10] uri:/v1/user/register?email=gaoqc@qq.com 
+2017/07/12 16:06:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    396.631µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:06:52 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:07:31 [I] [Filter.go:10] uri:/v1/user/register?okLoginAcc=gaoqc&LoginPwd=123 
+2017/07/12 16:07:31 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    486.063µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:07:45 [I] [Filter.go:10] uri:/v1/user/register?okLoginAcc=gaoqc&LoginPwd=123 
+2017/07/12 16:07:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    247.202µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:07:45 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:07:53 [I] [Filter.go:10] uri:/v1/user/register?LoginAcc=gaoqc&LoginPwd=123 
+2017/07/12 16:07:53 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     386.23µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:08:33 [I] [Filter.go:10] uri:/v1/user/register?LoginAcc=gaoqc&LoginPwd=123&Phone=17704027838&Email=359309411@qq.com 
+2017/07/12 16:08:33 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.427755ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:08:40 [I] [Filter.go:10] uri:/v1/user/register?LoginAcc=gaoqc&LoginPwd=123&Phone=17704027838&Email=359309411@qq.com 
+2017/07/12 16:08:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|        938µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:09:08 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&LoginPwd=123&Phone=17704027838&Email=359309411@qq.com 
+2017/07/12 16:09:08 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    221.239µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:09:26 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&LoginPwd=123&Phone=17704027838&Email=359309411@qq.com 
+2017/07/12 16:09:26 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    259.037µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:09:26 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:10:31 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:10:38 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&LoginPwd=123&Phone=17704027838&Email=359309411@qq.com 
+2017/07/12 16:10:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.789456ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:11:12 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:11:38 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 16:11:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.310485ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:12:36 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:12:44 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:19:30 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:20:24 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:20:44 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:21:36 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:22:54 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:22:59 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 16:22:59 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    830.418µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:23:32 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc11&loginPwd=123&phone=17704027838222&email=359309411@qq.com 
+2017/07/12 16:23:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    545.148µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:23:36 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc11&loginPwd=123&phone=17704027838222&email=359309412@qq.com 
+2017/07/12 16:23:36 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    740.235µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:24:32 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc11&loginPwd=123&phone=17704027838222&email=359309412@qq.com 
+2017/07/12 16:24:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    1.77194ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:26:13 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:27:18 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc11&loginPwd=123&phone=17704027838222&email=359309412@qq.com 
+2017/07/12 16:27:18 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    913.363µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:27:23 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838222&email=359309412@qq.com 
+2017/07/12 16:27:23 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    501.728µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:27:28 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309412@qq.com 
+2017/07/12 16:27:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    630.432µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:27:34 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 16:27:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    539.499µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:28:03 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:29:53 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:30:20 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 16:30:20 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.401469ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:30:48 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 16:30:48 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    890.014µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:35:07 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:35:22 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 16:35:22 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      800.3µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:35:32 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 16:35:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.558218ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:35:37 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 16:35:37 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    610.909µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:35:39 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 16:35:39 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    508.315µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:35:43 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 16:35:43 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    485.605µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:35:48 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309411@qq.com 
+2017/07/12 16:35:48 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    504.943µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:35:53 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:35:53 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    479.678µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:38:43 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:38:47 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:38:47 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.180196ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:38:58 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:38:58 [D] [User.go:21] addUser.loginAcc: 
+2017/07/12 16:38:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.197583ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:39:17 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:39:40 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:39:47 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:39:47 [D] [UserController.go:53] userForm.loginAcc: 
+2017/07/12 16:39:47 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.454079ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:40:06 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:40:13 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:40:13 [D] [UserController.go:53] userForm.loginAcc:gaoqc1 
+2017/07/12 16:40:13 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.132353ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:41:40 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:43:24 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:43:29 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:43:29 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    996.704µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:44:03 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:44:06 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:44:06 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    1.51093ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:45:35 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:45:40 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:45:40 [D] [UserController.go:53] userForm.loginAcc:gaoqc1 
+2017/07/12 16:45:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.241625ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:46:29 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:46:33 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:46:33 [D] [User.go:39] loginAcc:gaoqc1 
+2017/07/12 16:46:33 [D] [UserController.go:53] userForm.loginAcc:gaoqc1 
+2017/07/12 16:46:33 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.727251ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:47:28 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/12 16:47:28 [I] [UserController.go:65] user.creatd: 
+2017/07/12 16:47:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.213421ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/12 16:47:39 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/12 16:47:39 [I] [UserController.go:65] user.creatd: 
+2017/07/12 16:47:39 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     832.76µs|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/12 16:47:49 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:47:49 [D] [User.go:39] loginAcc:gaoqc1 
+2017/07/12 16:47:49 [D] [UserController.go:53] userForm.loginAcc:gaoqc1 
+2017/07/12 16:47:49 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.817325ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:51:21 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:51:25 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:51:25 [D] [User.go:39] loginAcc:gaoqc1 
+2017/07/12 16:51:25 [D] [User.go:47] user.email:359309412@qq.com 
+2017/07/12 16:51:25 [D] [UserController.go:53] userForm.loginAcc:gaoqc1 
+2017/07/12 16:51:25 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.471981ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:52:31 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:52:57 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:53:24 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:53:24 [D] [User.go:39] loginAcc:gaoqc1 
+2017/07/12 16:53:24 [D] [User.go:44] user.email:359309412@qq.com 
+2017/07/12 16:53:24 [D] [UserController.go:53] userForm.loginAcc:gaoqc1 
+2017/07/12 16:53:24 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    6.01744ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:57:34 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:57:40 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:57:40 [D] [User.go:39] loginAcc:gaoqc1 
+2017/07/12 16:57:40 [D] [User.go:45] user.email:359309412@qq.com 
+2017/07/12 16:57:40 [D] [UserController.go:53] userForm.loginAcc:gaoqc1 
+2017/07/12 16:57:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.764224ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:58:11 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:58:17 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:58:19 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:58:19 [D] [User.go:39] loginAcc:gaoqc1 
+2017/07/12 16:58:19 [D] [User.go:48] user.email:359309412@qq.com 
+2017/07/12 16:58:19 [D] [UserController.go:53] userForm.loginAcc:gaoqc1 
+2017/07/12 16:58:19 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.283776ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 16:58:46 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 16:58:48 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 16:58:48 [D] [User.go:39] loginAcc:gaoqc1 
+2017/07/12 16:58:48 [D] [User.go:48] user.email:359309412@qq.com 
+2017/07/12 16:58:48 [D] [UserController.go:53] userForm.loginAcc:gaoqc1 
+2017/07/12 16:58:48 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    4.96026ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 18:01:29 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:02:23 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:02:57 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:03:46 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:03:53 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:03:58 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 18:03:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.103689ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 18:05:24 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:05:54 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:06:00 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:06:23 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:06:30 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:06:35 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:07:41 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:07:45 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=177040278382&email=359309412@qq.com 
+2017/07/12 18:07:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.492938ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 18:08:13 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 18:08:13 [D] [UserController.go:53] userForm.loginAcc:gaoqc 
+2017/07/12 18:08:13 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.368246ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 18:08:29 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 18:08:29 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.395731ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 18:08:35 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=17704027839&email=359309411@qq.com 
+2017/07/12 18:08:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    803.818µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 18:08:41 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc1&loginPwd=123&phone=17704027839&email=359309412@qq.com 
+2017/07/12 18:08:41 [D] [UserController.go:53] userForm.loginAcc:gaoqc1 
+2017/07/12 18:08:41 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.831277ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 18:08:51 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/12 18:08:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    944.534µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/12 18:09:06 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/12 18:09:06 [I] [UserController.go:65] user.creatd:359309411@qq.com 
+2017/07/12 18:09:06 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.148635ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/12 18:17:27 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:17:32 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/12 18:17:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.660374ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/12 18:18:13 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:18:28 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:18:35 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:19:26 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:26:34 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:49:25 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:49:54 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:49:56 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:50:27 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:50:40 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:50:42 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:51:29 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:54:10 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:54:49 [I] [Filter.go:10] uri:/v1/user/updateUserInfo?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com 
+2017/07/12 18:54:49 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|     510.49µs| nomatch|[44m GET     [0m /v1/user/updateUserInfo
+2017/07/12 18:54:58 [I] [Filter.go:10] uri:/v1/user/updateUserInfo?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com 
+2017/07/12 18:54:58 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    353.744µs| nomatch|[44m GET     [0m /v1/user/updateUserInfo
+2017/07/12 18:55:09 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:55:10 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:57:36 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:58:22 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 18:58:26 [I] [Filter.go:10] uri:/v1/user/updateUserInfo?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com 
+2017/07/12 18:58:26 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    927.704µs| nomatch|[44m GET     [0m /v1/user/updateUserInfo
+2017/07/12 18:58:43 [I] [Filter.go:10] uri:/v1/user/UpdateUserInfo?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com 
+2017/07/12 18:58:43 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    367.368µs| nomatch|[44m GET     [0m /v1/user/UpdateUserInfo
+2017/07/12 18:58:59 [I] [Filter.go:10] uri:/v1/user/UpdateUserInfo?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com 
+2017/07/12 18:58:59 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    311.342µs| nomatch|[44m GET     [0m /v1/user/UpdateUserInfo
+2017/07/12 18:59:04 [I] [Filter.go:10] uri:/v1/user/updateUserInfo?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com 
+2017/07/12 18:59:04 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    446.681µs| nomatch|[44m GET     [0m /v1/user/updateUserInfo
+2017/07/12 18:59:26 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/12 18:59:26 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    846.958µs|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/12 19:00:01 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 19:00:07 [I] [Filter.go:10] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com 
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] the request url is  /v1/user/update
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] Handler crashed with error assignment to entry in nil map
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/hashmap.go:487
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/models/User.go:40
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/controllers/UserController.go:32
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/reflect/value.go:434
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/reflect/value.go:302
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:816
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/12 19:00:07 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/12 19:00:27 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 19:00:41 [I] [Filter.go:10] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com 
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] the request url is  /v1/user/update
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] Handler crashed with error assignment to entry in nil map
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/hashmap.go:487
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/models/User.go:40
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/controllers/UserController.go:32
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/reflect/value.go:434
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/reflect/value.go:302
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:816
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/12 19:00:41 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/12 19:01:38 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 19:01:41 [I] [Filter.go:10] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com 
+2017/07/12 19:01:41 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.370279ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/12 19:02:44 [I] [Filter.go:10] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0 
+2017/07/12 19:02:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.037611ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/12 19:03:13 [I] [Filter.go:10] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/12 19:03:13 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.564933ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/12 19:03:31 [I] [Filter.go:10] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0 
+2017/07/12 19:03:31 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    4.03332ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/12 19:04:38 [I] [Filter.go:10] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027837&email=359309413@qq.com&idNo=440921198606155410&idType=0 
+2017/07/12 19:04:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.882051ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/12 19:05:10 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 19:05:35 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 19:05:44 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 19:06:05 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 19:06:16 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 19:06:24 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/12 19:06:33 [I] [Filter.go:10] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0 
+2017/07/12 19:06:33 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.969436ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/12 19:06:35 [I] [Filter.go:10] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0 
+2017/07/12 19:06:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.004792ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/12 19:06:43 [I] [Filter.go:10] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/12 19:06:43 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.976766ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/12 20:37:58 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/12 20:37:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  11.455105ms|   match|[44m GET     [0m /v1/user/login   r:/v1/user/login/*
+2017/07/12 20:37:59 [I] [Filter.go:10] uri:/favicon.ico 
+2017/07/12 20:37:59 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    431.695µs| nomatch|[44m GET     [0m /favicon.ico
