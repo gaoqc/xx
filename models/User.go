@@ -16,6 +16,8 @@ type User struct {
 	TrueName string `orm:"null`
 	IdNo     string `orm:"null`
 	IdType   int    `orm:"null`
+	//用户类型,1普通顾客,2表示维修人员
+	UserType int `orm:"default(1)"`
 	//0 正常,1锁定
 	Status int `orm:"default(0)"`
 }
@@ -33,7 +35,7 @@ func AddUser(user *User) int64 {
 }
 
 //更新手机号码或者邮箱或者证件ID.
-func Update(phone, email, idNo, trueName, loginAcc string, idType int) int64 {
+func Update(phone, email, idNo, trueName, loginAcc string, idType, userType int) int64 {
 	user := User{Phone: phone, Email: email, IdNo: idNo, IdType: idType, TrueName: trueName}
 	up := make(map[string]interface{})
 
@@ -52,6 +54,9 @@ func Update(phone, email, idNo, trueName, loginAcc string, idType int) int64 {
 		up["id_no"] = idNo
 		up["id_type"] = idType
 
+	}
+	if userType > 0 {
+		up["user_type"] = userType
 	}
 
 	num, err := orm.NewOrm().QueryTable(user).Filter("loginAcc", loginAcc).Update(up)

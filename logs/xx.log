@@ -328,3 +328,294 @@
 2017/07/12 20:37:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  11.455105ms|   match|[44m GET     [0m /v1/user/login   r:/v1/user/login/*
 2017/07/12 20:37:59 [I] [Filter.go:10] uri:/favicon.ico 
 2017/07/12 20:37:59 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    431.695µs| nomatch|[44m GET     [0m /favicon.ico
+2017/07/13 10:23:45 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:25:41 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:25:42 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:27:47 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:27:49 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:27:56 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:27:57 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:28:37 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:28:38 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:31:40 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:32:25 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:44:39 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:48:26 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:48:28 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:48:41 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:48:46 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:48:57 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:53:14 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:54:02 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:55:51 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:57:46 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 10:59:59 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 11:00:13 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 11:01:09 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 11:01:35 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 11:03:04 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/13 11:03:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.079644ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 11:03:09 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/13 11:03:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    803.494µs|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 14:53:27 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 14:53:34 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/13 14:53:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.215004ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 14:54:01 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/13 14:54:01 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.053333ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/13 14:54:08 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/13 14:54:08 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    1.33318ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 14:54:21 [I] [Filter.go:10] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=1231 
+2017/07/13 14:54:21 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.312605ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 14:55:22 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 14:55:28 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/13 14:55:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.165565ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/13 14:56:31 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 14:58:06 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 14:58:08 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/13 14:58:08 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.151566ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/13 14:58:28 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqicheng023&loginPwd=123&phone=17704027838&email=359309411@qq.com 
+2017/07/13 14:58:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.526585ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/13 14:58:35 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqicheng023&loginPwd=123&phone=17704027839&email=359309411@qq.com 
+2017/07/13 14:58:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    878.326µs|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/13 14:58:38 [I] [Filter.go:10] uri:/v1/user/register?loginAcc=gaoqicheng023&loginPwd=123&phone=17704027839&email=359309412@qq.com 
+2017/07/13 14:58:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    7.77395ms|   match|[44m GET     [0m /v1/user/register   r:/v1/user/register/*
+2017/07/13 15:52:29 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 15:52:36 [I] [Filter.go:11] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:52:36 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.973548ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/13 15:53:01 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 15:53:04 [I] [Filter.go:23] LoginFilter.uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:53:04 [I] [Filter.go:11] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:53:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.592622ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/13 15:54:52 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 15:54:53 [I] [Filter.go:23] LoginFilter.uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:54:53 [I] [Filter.go:11] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:54:53 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.739908ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/13 15:55:05 [I] [Filter.go:23] LoginFilter.uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:55:05 [I] [Filter.go:11] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:55:05 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.160865ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/13 15:55:18 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 15:55:19 [I] [Filter.go:23] LoginFilter.uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:55:19 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.275982ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/13 15:56:02 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 15:56:02 [D] [Filter.go:23] LoginFilter.uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:56:02 [D] [Filter.go:25] loginpatter:v1/user/update 
+2017/07/13 15:56:02 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   4.197249ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/13 15:56:20 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 15:56:22 [D] [Filter.go:23] LoginFilter.uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:56:22 [D] [Filter.go:25] loginpatter:/v1/user/update 
+2017/07/13 15:56:22 [D] [Filter.go:27] uri/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90, HasPrefix:/v1/user/update 
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] the request url is  /v1/user/update
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:63
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/signal_unix.go:290
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/context/input.go:344
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/filters/Filter.go:28
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:615
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:701
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/13 15:56:22 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/13 15:57:09 [D] [Filter.go:23] LoginFilter.uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 15:57:09 [D] [Filter.go:25] loginpatter:/v1/user/update 
+2017/07/13 15:57:09 [D] [Filter.go:27] uri/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90, HasPrefix:/v1/user/update 
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] the request url is  /v1/user/update
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:63
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/signal_unix.go:290
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/context/input.go:344
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/filters/Filter.go:28
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:615
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:701
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/13 15:57:09 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/13 16:05:56 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:05:57 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:06:12 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] the request url is  /v1/user/login
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:63
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/signal_unix.go:290
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/context/input.go:344
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/filters/Filter.go:24
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:615
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:701
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/13 16:06:19 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/13 16:07:16 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] the request url is  /v1/user/login
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:63
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/signal_unix.go:290
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/context/input.go:344
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/filters/Filter.go:24
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:615
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:701
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/13 16:07:17 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/13 16:07:28 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] the request url is  /v1/user/login
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:63
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/signal_unix.go:290
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/context/input.go:344
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/filters/Filter.go:24
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:615
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:701
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/13 16:07:31 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/13 16:07:55 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] the request url is  /v1/user/login
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:63
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/signal_unix.go:290
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/context/input.go:344
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/filters/Filter.go:24
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:615
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:701
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/13 16:07:57 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/13 16:08:56 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] the request url is  /v1/user/login
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:63
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/signal_unix.go:290
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/context/input.go:344
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/filters/Filter.go:24
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:615
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:701
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/13 16:08:56 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/13 16:09:31 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:09:33 [I] [Filter.go:12] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=1231 
+2017/07/13 16:09:33 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.641252ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 16:10:07 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] the request url is  /v1/user/login
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:63
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/signal_unix.go:290
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/context/input.go:344
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/filters/Filter.go:24
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:615
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:701
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/13 16:10:08 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] the request url is  /v1/user/login
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:514
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:489
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/panic.go:63
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/signal_unix.go:290
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/context/input.go:344
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/xx/filters/Filter.go:24
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:615
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /Users/gaoqc/Documents/codes/go/src/github.com/astaxie/beego/router.go:701
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:2568
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/net/http/server.go:1825
+2017/07/13 16:10:44 [C] [asm_amd64.s:514] /usr/local/Cellar/go/1.8.3/libexec/src/runtime/asm_amd64.s:2197
+2017/07/13 16:12:33 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:12:38 [D] [Filter.go:25] uri is/v1/user/login?loginAcc=gaoqc&loginPwd=1231 ,ticket is :null 
+2017/07/13 16:12:38 [I] [Filter.go:12] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=1231 
+2017/07/13 16:12:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.882272ms|   match|[44m GET     [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 16:13:33 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:13:34 [D] [Filter.go:25] uri is/v1/user/login?loginAcc=gaoqc&loginPwd=1231 ,ticket is :null 
+2017/07/13 16:13:34 [I] [Filter.go:12] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=1231 
+2017/07/13 16:13:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    1.80449ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 16:13:39 [D] [Filter.go:25] uri is/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 ,ticket is :null 
+2017/07/13 16:13:39 [D] [Filter.go:28] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90,patter:/v1/user/update 
+2017/07/13 16:13:39 [W] [Filter.go:30] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 not login 
+2017/07/13 16:13:39 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|     173.22µs| nomatch|[44m GET     [0m /v1/user/update
+2017/07/13 16:13:39 [I] [Filter.go:12] uri:/ 
+2017/07/13 16:13:39 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    531.524µs| nomatch|[44m GET     [0m /  
+2017/07/13 16:13:45 [D] [Filter.go:25] uri is/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 ,ticket is :null 
+2017/07/13 16:13:45 [D] [Filter.go:28] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90,patter:/v1/user/update 
+2017/07/13 16:13:45 [W] [Filter.go:30] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 not login 
+2017/07/13 16:13:45 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|    159.882µs| nomatch|[44m GET     [0m /v1/user/update
+2017/07/13 16:13:45 [I] [Filter.go:12] uri:/ 
+2017/07/13 16:13:45 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    298.064µs| nomatch|[44m GET     [0m /  
+2017/07/13 16:16:08 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:16:12 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:18:07 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:18:09 [D] [Filter.go:26] uri is/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 ,ticket is :null 
+2017/07/13 16:18:09 [D] [Filter.go:29] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90,patter:/v1/user/update 
+2017/07/13 16:18:09 [W] [Filter.go:31] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 not login 
+2017/07/13 16:18:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    858.094µs| nomatch|[44m GET     [0m /v1/user/update
+2017/07/13 16:18:47 [D] [Filter.go:26] uri is/v1/user/login?loginAcc=gaoqc&loginPwd=1231 ,ticket is :null 
+2017/07/13 16:18:47 [I] [Filter.go:13] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=1231 
+2017/07/13 16:18:47 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.199914ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 16:18:53 [D] [Filter.go:26] uri is/v1/user/login?loginAcc=gaoqc&loginPwd=123 ,ticket is :null 
+2017/07/13 16:18:53 [I] [Filter.go:13] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/13 16:18:53 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.729599ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 16:19:04 [D] [Filter.go:26] uri is/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 ,ticket is :{"Id":1,"Created":"2017-07-13T06:54:01+08:00","Updated":"2017-07-13T06:54:01+08:00","LoginAcc":"gaoqc","LoginPwd":"123","Phone":"17704027830","Email":"359309413@qq.com","TrueName":"高其成","IdNo":"440921198606155410","IdType":0,"UserType":0,"Status":0} 
+2017/07/13 16:19:04 [D] [Filter.go:29] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90,patter:/v1/user/update 
+2017/07/13 16:19:04 [I] [Filter.go:13] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 16:19:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  10.053987ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/13 16:20:10 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:20:34 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:21:52 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:21:53 [D] [Filter.go:26] uri is/v1/user/LogOut ,ticket is :null 
+2017/07/13 16:21:53 [I] [Filter.go:13] uri:/v1/user/LogOut 
+2017/07/13 16:21:53 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|   1.253298ms| nomatch|[44m GET     [0m /v1/user/LogOut
+2017/07/13 16:22:22 [D] [Filter.go:26] uri is/v1/user/LogOut ,ticket is :null 
+2017/07/13 16:22:22 [I] [Filter.go:13] uri:/v1/user/LogOut 
+2017/07/13 16:22:22 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    435.502µs| nomatch|[44m GET     [0m /v1/user/LogOut
+2017/07/13 16:22:26 [D] [Filter.go:26] uri is/v1/user/LogOut ,ticket is :null 
+2017/07/13 16:22:26 [I] [Filter.go:13] uri:/v1/user/LogOut 
+2017/07/13 16:22:26 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    375.421µs| nomatch|[44m GET     [0m /v1/user/LogOut
+2017/07/13 16:22:46 [D] [Filter.go:26] uri is/v1/user/logOut ,ticket is :null 
+2017/07/13 16:22:46 [I] [Filter.go:13] uri:/v1/user/logOut 
+2017/07/13 16:22:46 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    412.635µs| nomatch|[44m GET     [0m /v1/user/logOut
+2017/07/13 16:22:50 [D] [Filter.go:26] uri is/v1/user/logOut ,ticket is :null 
+2017/07/13 16:22:50 [I] [Filter.go:13] uri:/v1/user/logOut 
+2017/07/13 16:22:50 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    425.757µs| nomatch|[44m GET     [0m /v1/user/logOut
+2017/07/13 16:22:56 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:22:59 [D] [Filter.go:26] uri is/v1/user/logOut ,ticket is :null 
+2017/07/13 16:22:59 [I] [Filter.go:13] uri:/v1/user/logOut 
+2017/07/13 16:22:59 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|   1.392621ms| nomatch|[44m GET     [0m /v1/user/logOut
+2017/07/13 16:23:20 [D] [Filter.go:26] uri is/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 ,ticket is :null 
+2017/07/13 16:23:20 [D] [Filter.go:29] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90,patter:/v1/user/update 
+2017/07/13 16:23:20 [W] [Filter.go:31] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027830&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 not login 
+2017/07/13 16:23:20 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      213.1µs| nomatch|[44m GET     [0m /v1/user/update
+2017/07/13 16:23:23 [D] [Filter.go:26] uri is/v1/user/login?loginAcc=gaoqc&loginPwd=123 ,ticket is :null 
+2017/07/13 16:23:23 [I] [Filter.go:13] uri:/v1/user/login?loginAcc=gaoqc&loginPwd=123 
+2017/07/13 16:23:23 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    1.65566ms|   match|[46m POST    [0m /v1/user/login   r:/v1/user/login/*
+2017/07/13 16:23:34 [D] [Filter.go:26] uri is/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 ,ticket is :{"Id":1,"Created":"2017-07-13T06:54:01+08:00","Updated":"2017-07-13T06:54:01+08:00","LoginAcc":"gaoqc","LoginPwd":"123","Phone":"17704027830","Email":"359309413@qq.com","TrueName":"高其成","IdNo":"440921198606155410","IdType":0,"UserType":0,"Status":0} 
+2017/07/13 16:23:34 [D] [Filter.go:29] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90,patter:/v1/user/update 
+2017/07/13 16:23:34 [I] [Filter.go:13] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 
+2017/07/13 16:23:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.995344ms|   match|[44m GET     [0m /v1/user/update   r:/v1/user/update/*
+2017/07/13 16:23:43 [D] [Filter.go:26] uri is/v1/user/logOut ,ticket is :{"Id":1,"Created":"2017-07-13T06:54:01+08:00","Updated":"2017-07-13T06:54:01+08:00","LoginAcc":"gaoqc","LoginPwd":"123","Phone":"17704027830","Email":"359309413@qq.com","TrueName":"高其成","IdNo":"440921198606155410","IdType":0,"UserType":0,"Status":0} 
+2017/07/13 16:23:43 [I] [Filter.go:13] uri:/v1/user/logOut 
+2017/07/13 16:23:43 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    422.464µs| nomatch|[44m GET     [0m /v1/user/logOut
+2017/07/13 16:24:49 [I] [asm_amd64.s:2197] http server Running on http://:8080
+2017/07/13 16:24:53 [D] [Filter.go:26] uri is/v1/user/logout ,ticket is :null 
+2017/07/13 16:24:53 [I] [Filter.go:13] uri:/v1/user/logout 
+2017/07/13 16:24:53 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.095947ms|   match|[44m GET     [0m /v1/user/logout   r:/v1/user/logout/*
+2017/07/13 16:25:01 [D] [Filter.go:26] uri is/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 ,ticket is :null 
+2017/07/13 16:25:01 [D] [Filter.go:29] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90,patter:/v1/user/update 
+2017/07/13 16:25:01 [W] [Filter.go:31] uri:/v1/user/update?loginAcc=gaoqc&loginPwd=123&phone=17704027838&email=359309413@qq.com&idNo=440921198606155410&idType=0&trueName=%E9%AB%98%E5%85%B6%E6%88%90 not login 
+2017/07/13 16:25:01 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    170.424µs| nomatch|[44m GET     [0m /v1/user/update
+2017/07/13 16:25:05 [D] [Filter.go:26] uri is/v1/user/logout ,ticket is :null 
+2017/07/13 16:25:05 [I] [Filter.go:13] uri:/v1/user/logout 
+2017/07/13 16:25:05 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      215.2µs|   match|[44m GET     [0m /v1/user/logout   r:/v1/user/logout/*

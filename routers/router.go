@@ -1,7 +1,7 @@
 package routers
 
 import (
-	// "fmt"
+	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
@@ -11,7 +11,7 @@ import (
 )
 
 func init() {
-	ns := beego.NewNamespace("/v1", beego.NSAutoRouter(&controllers.UserController{}))
+	ns := beego.NewNamespace("/v1", beego.NSBefore(filters.LoginFilter), beego.NSAutoRouter(&controllers.UserController{}))
 
 	beego.AddNamespace(ns)
 	// beego.Router("/", &controllers.MainController{})
@@ -22,17 +22,18 @@ func init() {
 func initDb() {
 
 	orm.RegisterDataBase("default", "mysql", "root:gaoqc@123.com@/xx?charset=utf8")
-	orm.RegisterModelWithPrefix("t_", new(models.User))
+	orm.RegisterModelWithPrefix("t_", new(models.User), new(models.UserAddress))
 	orm.Debug = true
-	// err := orm.RunSyncdb("default", true, true)
-	// if err != nil {
-	// 	fmt.Errorf("err on RunSyncdb:%v", nil)
-	// }
+	err := orm.RunSyncdb("default", false, true)
+	if err != nil {
+		fmt.Errorf("err on RunSyncdb:%v", nil)
+	}
 }
 func initLog() {
 	beego.SetLogger("file", `{"filename":"/Users/gaoqc/Documents/codes/go/src/xx/logs/xx.log"}`)
 	beego.SetLevel(beego.LevelDebug)
 }
 func initFilter() {
+
 	beego.InsertFilter("/*", beego.BeforeRouter, filters.PrintURL)
 }
